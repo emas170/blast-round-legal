@@ -19,7 +19,7 @@
     *{box-sizing:border-box}
     html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
     body{padding:32px 16px}
-    main{width:min(100%,820px);margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:clamp(24px,5vw,48px);box-shadow:0 20px 60px rgba(0,0,0,.28)}
+    main{width:min(100%,860px);margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:clamp(24px,5vw,48px);box-shadow:0 20px 60px rgba(0,0,0,.28)}
     h1{margin:0 0 6px;font-size:clamp(30px,6vw,44px);line-height:1.15}
     h2{margin:30px 0 8px;font-size:20px;line-height:1.3}
     p,li{color:var(--muted)}
@@ -34,72 +34,111 @@
 <body>
 <main>
   <h1>Privacy Policy for Blast Round</h1>
-  <p class="updated"><strong>Last updated:</strong> September 17, 2026</p>
+  <p class="updated"><strong>Last updated:</strong> September 22, 2026</p>
 
-  <p class="summary"><strong>Summary:</strong> Blast Round currently works without user accounts, online leaderboards, multiplayer, third-party analytics, advertising networks, or a developer-operated backend. Game progress and settings are stored locally on your device and are not sent to the developer.</p>
+  <p class="summary"><strong>Summary:</strong> Blast Round can be played as a standalone web game and through third-party game platforms. The standalone/provider-neutral build stores gameplay progress, preferences, a local player profile, and local gameplay statistics on your device. Some platform-specific builds may use the hosting platform's SDK for advertising, authorization, cloud saves, platform analytics, or other platform services. An optional Blast Round online leaderboard service may also be enabled in some builds. This policy explains those cases below.</p>
 
   <h2>1. Developer and contact</h2>
   <p>Blast Round is developed and published by <strong>Paweł Pierzchała</strong>.</p>
   <p>Privacy contact: <a href="mailto:gdoncorleone11@gmail.com">gdoncorleone11@gmail.com</a></p>
 
-  <h2>2. Information collected by Blast Round</h2>
-  <p>The current version of Blast Round does not collect, transmit, sell, or share personal information or sensitive user data with the developer or with third parties.</p>
-  <p>The game does not currently require a user account and does not provide online multiplayer, cloud profiles, online leaderboards, or cloud-based save data.</p>
+  <h2>2. Scope of this Privacy Policy</h2>
+  <p>This Privacy Policy applies to Blast Round, including the standalone web version and platform-specific builds distributed through game portals, stores, social platforms, or similar services.</p>
+  <p>The platform through which you access Blast Round may independently collect or process information under its own privacy policy. Platform-level processing is controlled by that platform and is not governed solely by this Blast Round Privacy Policy.</p>
 
-  <h2>3. Local game data</h2>
-  <p>Blast Round stores certain information locally on your device in order to provide game functionality. Depending on how you use the game, this may include:</p>
+  <h2>3. Information stored locally by Blast Round</h2>
+  <p>Blast Round stores information locally in your browser or device storage to provide game functionality. Depending on how you use the game, this may include:</p>
   <ul>
-    <li>game progress and progression state,</li>
-    <li>scores and high scores,</li>
-    <li>coins, rewards, achievements, quests, and related gameplay state,</li>
-    <li>boss and level progress,</li>
-    <li>daily reward and tutorial state,</li>
-    <li>game settings and preferences,</li>
-    <li>local gameplay statistics used by the game.</li>
+    <li>game progress, level and boss progress,</li>
+    <li>scores, high scores, local leaderboards, and gameplay records,</li>
+    <li>coins, rewards, achievements, quests, milestones, and daily systems,</li>
+    <li>selected visual themes, difficulty, audio, haptic, and other settings,</li>
+    <li>tutorial and onboarding state,</li>
+    <li>a locally generated player identifier and a nickname you choose,</li>
+    <li>local gameplay statistics and run analytics used for in-game features.</li>
   </ul>
-  <p>This information remains on your device. It is not uploaded to a developer-operated server and is not used by the developer to identify you.</p>
+  <p>In the provider-neutral standalone build, this information remains on your device and is not sent to the developer. Blast Round may use browser storage technologies such as <strong>localStorage</strong> or equivalent platform-provided storage to save this information.</p>
 
-  <h2>4. Analytics, advertising identifiers, and tracking</h2>
-  <p>Blast Round does not currently use third-party analytics services to track users. Local gameplay statistics may be calculated and stored on the device for in-game functionality, but they are not transmitted to the developer or to an external analytics provider.</p>
-  <p>The current version of Blast Round does not intentionally generate or transmit advertising identifiers, device fingerprints, or similar identifiers for behavioural advertising or cross-service tracking.</p>
+  <h2>4. Local analytics</h2>
+  <p>Blast Round includes local gameplay analytics used to support features such as career statistics, progression, balancing, and recent run history. These records may include gameplay information such as score, cleared lines, combo values, run duration, selected mode or difficulty, power-up use, boss progress, and similar gameplay events.</p>
+  <p>In the provider-neutral standalone build, these analytics are stored locally and are not transmitted to an external analytics provider or to the developer.</p>
 
-  <h2>5. Advertising</h2>
-  <p>Blast Round does not currently use a third-party advertising network and does not transmit personal information or gameplay information to advertising providers.</p>
-  <p>If advertising or rewarded-ad services that process user or device data are introduced in a future release, this Privacy Policy and the application's Google Play Data Safety information will be updated to reflect the actual services and data practices before or alongside that release.</p>
-
-  <h2>6. Device features and permissions</h2>
-  <p>Blast Round does not use location, contacts, camera, microphone, photos, messages, or similar personal or sensitive information as part of its current gameplay.</p>
-  <p>The final Android application package will be reviewed before release so that its requested permissions and Google Play disclosures remain consistent with the actual functionality of the application and with this Privacy Policy.</p>
-
-  <h2>7. Third-party services and network connections</h2>
-  <p>The current game build does not intentionally send gameplay or personal information to third-party analytics, advertising, or developer-operated backend services.</p>
-  <p>This Privacy Policy is hosted using GitHub Pages. If you choose to open the Privacy Policy link, your browser or device connects to GitHub's servers. GitHub may process ordinary technical connection information, such as an IP address, according to GitHub's own privacy practices. Blast Round and the developer do not receive that information from GitHub Pages.</p>
-
-  <h2>8. Data retention and deletion</h2>
-  <p>The developer does not maintain an external database containing Blast Round user accounts or personal gameplay data.</p>
-  <p>Locally stored game data remains on your device until you remove it. You can remove local data by:</p>
+  <h2>5. Optional online leaderboard service</h2>
+  <p>Blast Round contains an online leaderboard foundation that is <strong>disabled by default</strong> in the provider-neutral build. A platform-specific or future release may explicitly enable it.</p>
+  <p>If the online leaderboard is enabled, Blast Round may send the following information to the configured Blast Round leaderboard service:</p>
   <ul>
-    <li>using the reset functionality provided in the game,</li>
-    <li>clearing Blast Round's application data through Android settings, or</li>
-    <li>uninstalling the application.</li>
+    <li>a locally generated player identifier and an anonymous server-side player identifier,</li>
+    <li>the nickname you choose and your in-game career badge,</li>
+    <li>game build, mode, score, cleared lines, combo, boss and power-up metrics,</li>
+    <li>run duration and limited gameplay telemetry used to validate leaderboard submissions,</li>
+    <li>technical session identifiers and authentication tokens required to protect leaderboard integrity.</li>
   </ul>
-  <p>Because the current version does not create user accounts or store personal gameplay data on developer-operated servers, there is no server-side Blast Round account data to request for deletion.</p>
+  <p>The leaderboard does not require your real name, email address, phone number, address, or social-media account. Do not use personal information as your in-game nickname if you do not want it to appear on a leaderboard.</p>
 
-  <h2>9. Security</h2>
-  <p>Blast Round is currently designed so that gameplay progress and settings remain on the user's device instead of being stored on developer-operated servers. The developer does not receive those local records.</p>
-  <p>Protection of locally stored application data also depends on the security features of your device and operating system. No method of electronic storage can be guaranteed to be completely secure.</p>
+  <h2>6. Third-party game platforms and SDKs</h2>
+  <p>Blast Round may be distributed through third-party services such as web-game portals, app platforms, social platforms, and game distribution networks. Depending on the version you play, a platform SDK may be used for functions such as:</p>
+  <ul>
+    <li>game startup, pause/resume, and audio lifecycle handling,</li>
+    <li>advertising and rewarded advertising,</li>
+    <li>platform authorization or player identity,</li>
+    <li>cloud saves or platform storage,</li>
+    <li>platform achievements or leaderboards,</li>
+    <li>fraud prevention, security, performance measurement, or aggregated reporting.</li>
+  </ul>
+  <p>Examples of platforms on which Blast Round may be distributed or submitted include GameDistribution, GamePix, CrazyGames, Y8, Playgama, itch.io, YouTube Playables, and similar services. Availability may vary over time.</p>
+  <p>These platforms may process technical information such as IP address, browser or device information, cookies or similar identifiers, advertising interactions, platform account information, and usage information according to their own privacy policies and consent mechanisms. The exact processing depends on the platform where you play.</p>
 
-  <h2>10. Children's privacy</h2>
-  <p>Blast Round does not knowingly collect personal information from children or from other users. The current version does not require users to provide a name, email address, date of birth, location, or other personal information in order to play.</p>
+  <h2>7. Advertising</h2>
+  <p>The provider-neutral standalone build does not include an independent third-party advertising network.</p>
+  <p>Some platform-specific builds of Blast Round may display interstitial, rewarded, or other advertising supplied by the platform or its advertising partners. In those cases, the platform or its advertising partners may process information for ad delivery, measurement, fraud prevention, frequency control, or—where permitted and consented to—personalization.</p>
+  <p>Blast Round does not require you to provide personal information directly to the developer in order to view or receive an in-game advertising reward.</p>
 
-  <h2>11. Future features</h2>
-  <p>Future versions of Blast Round may introduce features such as online leaderboards, multiplayer, cloud services, analytics, advertising, or other network-based functionality.</p>
-  <p>If such a feature changes how user or device data is accessed, collected, used, retained, or shared, this Privacy Policy and the relevant Google Play disclosures will be updated to describe the actual data practices.</p>
+  <h2>8. YouTube Playables</h2>
+  <p>If Blast Round is made available through YouTube Playables, the game will use YouTube-provided platform functionality and will follow the applicable YouTube Playables requirements. External advertising or monetization services will not be used inside the YouTube Playables build where prohibited by YouTube.</p>
+  <p>YouTube and Google may process information associated with your use of YouTube and Playables under their own privacy policies and account settings. Blast Round does not independently obtain your YouTube password or other Google account credentials.</p>
 
-  <h2>12. Changes to this Privacy Policy</h2>
-  <p>This Privacy Policy may be updated when Blast Round's functionality, data practices, legal obligations, or third-party integrations change. The date at the top of this page indicates the most recent revision.</p>
+  <h2>9. Device features and permissions</h2>
+  <p>Blast Round does not require access to your precise location, contacts, camera, microphone, photos, messages, or similar sensitive device information for normal gameplay.</p>
+  <p>The game may use standard browser or device features such as audio playback and vibration/haptic feedback when available and enabled.</p>
 
-  <h2>13. Contact</h2>
+  <h2>10. Cookies and similar technologies</h2>
+  <p>Blast Round itself primarily uses local browser/device storage for game state. A third-party hosting or distribution platform may use cookies, SDK storage, advertising identifiers, or similar technologies as described in that platform's privacy policy and consent interface.</p>
+
+  <h2>11. Data retention and deletion</h2>
+  <p>Local Blast Round data remains on your device until it is reset or removed. Depending on the platform, you can remove local data by:</p>
+  <ul>
+    <li>using Blast Round's in-game reset functionality,</li>
+    <li>clearing the site's storage or cookies in your browser,</li>
+    <li>clearing the application's storage through device settings, or</li>
+    <li>uninstalling the application where applicable.</li>
+  </ul>
+  <p>If an online leaderboard build is enabled and you want to request deletion of data held by the Blast Round leaderboard service, contact <a href="mailto:gdoncorleone11@gmail.com">gdoncorleone11@gmail.com</a>. Please provide enough information to identify the relevant in-game profile or player identifier, but do not send passwords or unnecessary sensitive information.</p>
+  <p>Data processed independently by a third-party platform must be managed through that platform's privacy controls or support channels.</p>
+
+  <h2>12. Data sharing and sale</h2>
+  <p>The developer does not sell Blast Round player personal information.</p>
+  <p>Information may be processed by third-party platforms when necessary to host, distribute, secure, monetize, or provide platform features for the game. Those services act under their own terms and privacy policies.</p>
+
+  <h2>13. International processing</h2>
+  <p>Third-party platforms used to distribute Blast Round may process information in countries other than your own. Their privacy policies describe their international data-transfer practices. If the Blast Round online leaderboard is enabled, service providers used to operate that backend may also process data in the locations where their infrastructure is hosted.</p>
+
+  <h2>14. Your privacy rights</h2>
+  <p>Depending on your location and the applicable law, you may have rights concerning personal data processed by the developer, including rights to request access, correction, deletion, restriction, portability, or to object to certain processing.</p>
+  <p>To exercise rights relating to data controlled directly by the Blast Round developer, contact <a href="mailto:gdoncorleone11@gmail.com">gdoncorleone11@gmail.com</a>. You may also have the right to lodge a complaint with your local data protection authority.</p>
+  <p>For information controlled by the platform through which you play, please use that platform's privacy tools or contact the platform directly.</p>
+
+  <h2>15. Children's privacy</h2>
+  <p>Blast Round is not designed to collect personal information from children. The game does not require a real name, email address, date of birth, precise location, or similar personal information to play.</p>
+  <p>Platform-specific age requirements may apply. In particular, a YouTube Playables version, if published, is intended for a general audience aged 13 and older and is not designed specifically for children.</p>
+
+  <h2>16. Security</h2>
+  <p>Blast Round is designed to minimize direct collection of personal information. Local data is protected by the security features of your browser, device, and operating system. Where an online leaderboard is enabled, technical authentication and validation mechanisms are used to protect submissions and service integrity.</p>
+  <p>No method of electronic storage or transmission can be guaranteed to be completely secure.</p>
+
+  <h2>17. Changes to this Privacy Policy</h2>
+  <p>This Privacy Policy may be updated when Blast Round's functionality, distribution channels, data practices, legal obligations, or third-party integrations change. The date at the top of this page indicates the most recent revision.</p>
+
+  <h2>18. Contact</h2>
   <p>If you have questions about this Privacy Policy or Blast Round's privacy practices, contact:</p>
   <p><strong>Paweł Pierzchała</strong><br>
   <a href="mailto:gdoncorleone11@gmail.com">gdoncorleone11@gmail.com</a></p>
